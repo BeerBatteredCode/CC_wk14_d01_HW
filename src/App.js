@@ -1,5 +1,5 @@
 import React from 'react';
-import MovieBox from './containers/MovieBox;'
+import MovieBox from './containers/MovieBox';
 import './App.css';
 
 function App() {

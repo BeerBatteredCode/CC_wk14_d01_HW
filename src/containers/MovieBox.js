@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import MovieList from '../components/MovieList';
 
 class MovieBox extends Component {
 
@@ -47,4 +48,4 @@ class MovieBox extends Component {
     }
 }
 
-export default MovieBox
+export default MovieBox;

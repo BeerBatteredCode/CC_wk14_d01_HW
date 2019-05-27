@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -32,7 +37,27 @@
   }
 }
 
-.movie {
-  border: 2px;
-  color: #282c34;
+.movie-box {
+  color: white;
+  background-color: orange;
+  padding: 2em;
+  border-radius: 30px;
 }
+
+.movie-box h3 {
+}
+
+.movie-list {
+ color: white;
+ border: 2px black;
+}
+
+.movie-list li {
+  padding-bottom: 1em;
+}
+
+.movie-list a {
+  color: white;
+}
+
+

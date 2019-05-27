@@ -6,8 +6,9 @@ class Movie extends Component {
         return(
             <div className="movie">
                 <h4>{this.props.children}</h4>
-                <h4>{this.props.name}</h4>
-                <p>{this.props.url}</p>
+                <li>
+                    <a href={this.props.url}> {this.props.name}</a>
+                </li> 
             </div>
         )
     }

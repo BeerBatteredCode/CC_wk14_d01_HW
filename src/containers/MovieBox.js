@@ -41,8 +41,11 @@ class MovieBox extends Component {
     render() {
         return(
             <div>
-                <h2>Movies</h2>
+                <h1>Upcoming film releases for UK</h1>
                 <MovieList data={this.state.data}/>
+                <button>
+                    <a href="">View More Upcoming Releases</a>
+                </button>
             </div>
         )
     }
